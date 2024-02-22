@@ -32,7 +32,7 @@ function Home() {
   }, [page, q]);
 
   return (
-    <Container sx={{ p: 3 }} maxWidth="lg">
+    <Container sx={{ p: 3 }} maxWidth="100vh">
       {jobs.length > 0 ? (
         <>
           <Grid container spacing={3}>
